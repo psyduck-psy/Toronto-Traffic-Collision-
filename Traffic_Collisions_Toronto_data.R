@@ -1,6 +1,3 @@
-# =========================================================
-# Load Data
-# =========================================================
 library(tidyverse)
 library(car)
 library(FSA)
@@ -254,3 +251,4 @@ ggplot(rate_grid, aes(Hour, Day_of_Week, fill = mean_injury)) +
   scale_x_continuous(breaks = 0:23) +
   labs(title = "Mean Daily Injury Count by Hour × Day", x = "Hour of Day", y = "Day of Week", fill = "Mean injuries") +
   theme_minimal(base_size = 12)
+
